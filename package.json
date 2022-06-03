@@ -6,7 +6,6 @@
   "scripts": {
     "test": "npx hardhat test",
     "compile": "npx hardhat compile",
-    "clean": "npx hardhat clean",
     "start": "npx hardhat run scripts/deploy.js",
     "fantomtest": "npx hardhat run --network fantomtestnet scripts/deploy.js",
     "avax": "npx hardhat run --network avalanche scripts/deploy.js",
@@ -23,7 +22,6 @@
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.3",
     "@nomiclabs/hardhat-waffle": "^2.0.1",
-    "chai": "^4.3.4",
     "ethereum-waffle": "^3.4.0",
     "ethers": "^5.5.2",
     "hardhat": "^2.7.1"
